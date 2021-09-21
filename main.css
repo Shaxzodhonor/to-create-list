@@ -1,0 +1,18 @@
+
+.todo-item:checked + .todo-text {
+    text-decoration: line-through;
+}
+
+.itemstyle {
+    display: inline-block;
+    width: 185px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.rang {
+    background-color: yellow;
+    border: 1px solid transparent;
+}

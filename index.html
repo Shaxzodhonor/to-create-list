@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="bg-warning">
+    <div class="container">
+        <h1>Ro'yhat</h1>
+        <div class="row">
+            <div class="col-3">
+                <form class="add-form-js" action="https://echo.htm;academy.ru">
+                    <input type="text" name="add_item" id="add-item-id" class="form-control add-item-js" autocomplete="off" required>
+                    <button class="btn btn-secondary add-button" type="submit">add</button>
+                </form>
+                <form class="search-form-js" action="https://echo.htm;academy.ru">
+                    <label for="check-item-id" class="form-label text-muted">Search items</label>
+                    <input type="search" name="check_item" id="check-item-id" class="form-control check-item-js" autocomplete="off" required>
+                    <button class="btn btn-secondary   search-button" type="submit">search
+                    </button>
+                    
+                </form>
+            </div>
+            
+            <div class="col-9">
+                <div class="bg-light p-4">
+                    <ol class="ul list-group-numbered  d-flex flex-column flex-wrap"  style="height: 75vh;"></ol>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
